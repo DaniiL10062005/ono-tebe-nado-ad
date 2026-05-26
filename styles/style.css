@@ -38,11 +38,14 @@
 .header__logo {
   display: block;
   width: 148px;
+  height: 105px;
   margin-left: 2px;
+  overflow: hidden;
 }
 
 .header__logo-image {
   display: block;
+  height: auto;
 }
 
 .address {
