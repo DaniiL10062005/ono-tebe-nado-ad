@@ -7,7 +7,7 @@
 }
 
 .header__menu {
-  padding-top: 4px;
+  padding-top: 0;
 }
 
 .header__links-list {
@@ -38,7 +38,7 @@
 .header__logo {
   display: block;
   width: 148px;
-  margin-left: 4px;
+  margin-left: 2px;
 }
 
 .header__logo-image {
@@ -48,7 +48,7 @@
 .address {
   display: flex;
   flex-direction: column;
-  max-width: 236px;
+  max-width: 240px;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
@@ -271,7 +271,7 @@
 }
 
 .about__text {
-  max-width: 693px;
+  max-width: 688px;
   font-size: 20px;
   line-height: 24px;
 }
