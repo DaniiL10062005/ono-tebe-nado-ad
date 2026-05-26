@@ -109,7 +109,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
+  letter-spacing: 0.3em;
 }
 
 .no-letter-spacing {
@@ -122,7 +122,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 135px;
+  margin-top: 106px;
 }
 
 .cover__description-text {
@@ -233,7 +233,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   column-gap: 25px;
-  padding: 146px 24px 0;
+  padding: 155px 24px 0;
 }
 
 .about__column {
@@ -288,6 +288,7 @@
 
 .footer__menu {
   justify-self: center;
+  width: 164px;
 }
 
 .footer__menu-list {
