@@ -38,6 +38,7 @@
 .header__logo {
   display: block;
   width: 148px;
+  margin-left: 4px;
 }
 
 .header__logo-image {
@@ -47,13 +48,14 @@
 .address {
   display: flex;
   flex-direction: column;
-  max-width: 240px;
+  max-width: 236px;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
 }
 
 .address__link {
+  width: fit-content;
   text-underline-offset: 4px;
 }
 
@@ -286,9 +288,14 @@
   padding: 180px 50px 82px;
 }
 
+.footer__address {
+  max-width: 264px;
+}
+
 .footer__menu {
   justify-self: center;
   width: 164px;
+  padding-left: 1px;
 }
 
 .footer__menu-list {
